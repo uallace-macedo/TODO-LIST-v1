@@ -2,7 +2,7 @@ const taskInput = document.querySelector('.task-input');
 const addTaskButton = document.querySelector('.button-add-task');
 const taskList = document.querySelector('.task-list');
 
-let tasks = [];
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 const addTask = () => {
     if(!taskInput.value) return;
@@ -55,11 +55,9 @@ const showTasks = () => {
         `;
     });
 
-    taskList.innerHTML = taskItems
+    taskList.innerHTML = taskItems;
+    localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
-const toggleCheckTask = (task) => {
-
-}
-
+showTasks();
 addTaskButton.addEventListener('click', addTask);
