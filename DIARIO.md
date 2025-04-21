@@ -1,6 +1,6 @@
 # 📒 Diário de Aprendizado
 
-Durante o desenvolvimento, aprendi e reforcei vários conceitos importantes de JavaScript e DOM. Aqui vão algumas anotações pessoais:
+Durante o desenvolvimento, aprendi e reforcei vários conceitos importantes de JavaScript e DOM.
 
 ## 📌 Manipulação do DOM
 
@@ -8,6 +8,7 @@ Para acessar e interagir com elementos HTML via JavaScript, usamos o método:
 
 ```js
 document.querySelector('.classe')
+document.querySelector('#id')
 ```
 
 ## 📌 Eventos
@@ -39,6 +40,6 @@ const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 localStorage.setItem('tasks', JSON.stringify(tasks));
 ```
 
-## ✅ Bonus: Pequenas melhorias
+## ✅ UI
 - Animações suaves em elementos com `transition`.
 - Ícones com hover animado usando `transform: scale(1.2)`.

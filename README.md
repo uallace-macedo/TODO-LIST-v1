@@ -10,9 +10,6 @@ Este é um projeto simples de **To-Do List (Lista de Tarefas)** feito com **HTML
 - Marcar/desmarcar tarefas como concluídas
 - Excluir tarefas
 - Tarefas salvas automáticamente no localStorage
-- Edição de tarefas (em breve...)
-- Paginação de tarefas (em breve...)
-- Responsividade (em breve...)
 
 ---
 
@@ -28,15 +25,24 @@ Este é um projeto simples de **To-Do List (Lista de Tarefas)** feito com **HTML
 ## 💻 Como usar
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/todo-list.git
-   ```
+  ```bash
+  git clone https://github.com/seu-usuario/todo-list.git
+  ```
 
 2. Abra o arquivo `index.html` no navegador.
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots & Videos
+
+### Home Page
+![Home-Page](./assets/application/home-page.png)
+
+### Tasks
+![Tasks](./assets/application/tasks.png)
+
+### Demo Video
+![Demo-video](./assets/application/demo-video.gif)
 
 ---
 
